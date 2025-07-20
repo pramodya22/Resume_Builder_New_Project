@@ -12,7 +12,7 @@ export const ResumeProvider = ({ children }) => {
     education: [],
     work: [],
     template: "template1",
-    color: "#4F46E5", // Default Indigo
+    color: "#4F46E5", 
   });
 
   const updatePersonal = (field, value) => {
