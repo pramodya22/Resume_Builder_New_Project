@@ -61,7 +61,7 @@ const MainApp = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
-          {/* Form Side */}
+          {/* Form Side view */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Personal Info</h2>
             <InputField label="Name" value={resumeData.personal.name} onChange={(v) => updatePersonal("name", v)} />
@@ -91,7 +91,7 @@ const MainApp = () => {
             <SectionEntry type="Work" entries={resumeData.work} updateEntry={updateEntry} addEntry={addEntry} removeEntry={removeEntry} />
           </div>
 
-          {/* Preview Side */}
+          {/* Preview Side view */}
           <ResumePreview resumeData={resumeData} theme={theme} />
         </div>
       </div>
