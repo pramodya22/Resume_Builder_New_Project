@@ -1,20 +1,18 @@
-/* index.css (plain CSS for custom styles) */
-
 body {
   margin: 0;
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.5;
-  background-color: #f8fafc; /* light background */
-  color: #111827; /* slate-900 */
+  background-color: #f8fafc; /* change background colour */
+  color: #111827; 
 }
 
-/* For dark mode toggle (optional) */
+/* Dark mode */
 body.dark-mode {
-  background-color: #1f2937; /* gray-800 */
-  color: #f3f4f6; /* gray-100 */
+  background-color: #1f2937; /* clour change as gray*/
+  color: #f3f4f6; 
 }
 
-/* Additional custom classes if needed */
+/* Additional custom changes */
 .resume-shadow {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
@@ -24,5 +22,5 @@ img.profile-pic {
   height: 128px;
   border-radius: 9999px;
   object-fit: cover;
-  border: 3px solid #4f46e5; /* indigo-600 */
+  border: 3px solid #4f46e5; 
 }
