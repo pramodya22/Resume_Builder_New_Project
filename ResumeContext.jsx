@@ -34,13 +34,13 @@ export const ResumeProvider = ({ children }) => {
   };
   const addEntry = (type) =>
     setResumeData({
-      ...resumeData,
+      ..resumeData,
       [type]: [...resumeData[type], { title: "", institution: "", duration: "", description: "" }],
     });
   const removeEntry = (type, idx) => {
     if (resumeData[type].length > 1) {
       setResumeData({
-        ...resumeData,
+        ..resumeData,
         [type]: resumeData[type].filter((_, i) => i !== idx),
       });
     }
