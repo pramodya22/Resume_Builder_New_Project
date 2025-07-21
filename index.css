@@ -24,3 +24,7 @@ img.profile-pic {
   object-fit: cover;
   border: 3px solid #4f46e5; 
 }
+img.profile-pic:hover {
+  transform: scale(1.05); /* slight zoom on hover */
+}
+
